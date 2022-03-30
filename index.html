@@ -4,6 +4,7 @@
     h1 {color: #EC8A2F; font-family:"lorem"; margin: 0; padding: 0;}
     p1 {color: #8C8C8C;}
     p2 {color: #EC8A2F}
+    div1 {color: white}
     header {
       background-color: #9bbe00;
        padding: 40px;
@@ -18,13 +19,35 @@
        font-size: 14px;
        color:white;}
 
+       .flex-container {
+        display: flex;
+        background-color: white;
+        justify-content: right;}
+
+       .flex-container > div {
+        background-color:#EC8A2F;
+        margin: 1px;
+        padding: px;
+        font-size: 14px;
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+       
+
     </style>
 
   </head>
   <body>
     <div>
      <h1>logo here</h1>
-     <p1>have your punchline here</p1>
+     <p1>have your punchline here
+     <div1 class="flex-container";> 
+      <div><p>Home</p></div>
+      <div><p>About Us</p></div>
+      <div><p>Technology</p></div>
+      <div><p>Contact Us</p></div>
+     </div>
+     </p1>
     </div>
     <header>
       <h>inventions</h>
@@ -45,7 +68,9 @@
         </p>
     </div>  
     <footer>
-    <a href="info@yourcompany.com"; style="color: white">info@yourcompany.com</a>
+    <a href="info@yourcompany.com"; style="color: white">
+      info@yourcompany.com
+    </a>
     </footer>
   
   </body>
